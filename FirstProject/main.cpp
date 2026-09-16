@@ -21,6 +21,10 @@ public: // интерфейс
 		cout << "Age: " << age << endl;
 	}
 };
+class Test
+{
+	int a;
+};
 
 int main() // Клиент
 {
