@@ -10,7 +10,16 @@ class Person
     string name;
     int age;
 public: // интерфейс
-
+	Person(string n, int a) // конструктор
+	{
+		name = n;
+		age = a;
+	}
+	void show() // метод
+	{
+		cout << "Name: " << name << endl;
+		cout << "Age: " << age << endl;
+	}
 };
 
 int main() // Клиент
