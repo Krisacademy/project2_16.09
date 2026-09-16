@@ -4,23 +4,6 @@ using namespace std;
 
 // Тема : Понятие конструктора . Проблема -> решение 
 
-class Person
-{
-    //private: // реализация, состояние объекта 
-    string name;
-    int age;
-public: // интерфейс
-	Person(string n, int a) // конструктор
-	{
-		name = n;
-		age = a;
-	}
-	void show() // метод
-	{
-		cout << "Name: " << name << endl;
-		cout << "Age: " << age << endl;
-	}
-};
 class Test
 {
 	int a;
@@ -28,7 +11,8 @@ class Test
 
 int main() // Клиент
 {
-	
+	Test t; // Создание объекта класса Test
+
 
 
 
